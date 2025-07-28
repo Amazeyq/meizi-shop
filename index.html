@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meizi Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meizi Shop</h1>
+    <button onclick="switchLanguage()">🇬🇧 / 🇳🇴</button>
+  </header>
+  <main>
+    <div class="product-card">
+      <img src="assets/img1.jpg" alt="Product Image" />
+      <h2 data-lang-en="Refreshing Drink" data-lang-no="Forfriskende drikke">Refreshing Drink</h2>
+      <p data-lang-en="A summer beverage with lemon flavor." data-lang-no="En sommerdrikk med sitronsmak.">
+        A summer beverage with lemon flavor.
+      </p>
+      <p>$25.99</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+  <script src="lang.js"></script>
+</body>
+</html>

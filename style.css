@@ -1,0 +1,4 @@
+body { font-family: sans-serif; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: center; }
+.product-card { border: 1px solid #ccc; border-radius: 1rem; padding: 1rem; max-width: 300px; }
+.product-card img { width: 100%; border-radius: 1rem; }
